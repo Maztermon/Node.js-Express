@@ -11,7 +11,7 @@ app.use(morgan('combined'));
 
 app.get("/", (req,res) =>{
 
-    res.send('Hello Diamond Test');
+    res.send('Hello Diamond Test update');
 
 })
 
