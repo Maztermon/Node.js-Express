@@ -6,8 +6,12 @@ const req = require('express/lib/request');
 const res = require('express/lib/response');
 const app = express();
 const port = 3000;
+const path = require('path');
+
 
 app.use(morgan('combined'));
+app.use(express.static(path.join(__dirname,"/Public/")));
+
 
 app.get("/", (req,res) =>{
 
