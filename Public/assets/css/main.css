@@ -212,25 +212,15 @@ button:focus {
   color: #fff;
 }
 
-.social-icon li .facebook:hover {
-  background: #3b5999;
-}
 
-.social-icon li .twitter:hover {
-  background: #4A9CEC;
-}
-
-.social-icon li .instagram:hover {
-  background: #D6274D;
+.social-icon li .github:hover {
+  background: #191a1b;
 }
 
 .social-icon li .linkedin:hover {
   background: #1260A2;
 }
 
-.social-icon li .google:hover {
-  background: #CE332A;
-}
 
 /* ScrollToTop */
 a.back-to-top {
@@ -403,7 +393,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .timeline li .line-title {
   font-size: 16px;
-  line-height: 6px;
+  line-height: 20px;
 }
 
 .timeline li span {
@@ -708,7 +698,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/ComBG.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -947,7 +937,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .services-item .services-content p {
-  line-height: 22px;
+  line-height: 30px;
 }
 
 .services-item:hover {
