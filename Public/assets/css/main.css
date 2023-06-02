@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #cfcbcb;
   font-size: 14px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
@@ -324,11 +324,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   bottom: 10px;
 }
 
-.counter-section {
-  background: url(../img/background/bg-1.jpg);
-  overflow: hidden;
-  position: relative;
-}
+
 
 .counter-section:before {
   content: '';
@@ -455,7 +451,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #fff;
+  background: #c2bdbd;
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
@@ -466,7 +462,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #fff !important;
+  background: #c5bfbf !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -493,7 +489,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .indigo {
-  background: #fff;
+  background: #ccc8c8;
 }
 
 .menu-bg {
@@ -698,7 +694,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/ComBG.jpg) no-repeat;
+  background: url('../img/background/BG01.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -893,12 +889,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
-/* Services Item */
-.services {
+/* Skill Item */
+.Skill {
   background: #F0F0F0;
 }
 
-.services-item {
+.Skill-item {
   background: #fff;
   border-radius: 4px;
   padding: 48px 20px;
@@ -910,7 +906,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i {
+.Skill-item .icon i {
   font-size: 42px;
   margin-bottom: 15px;
   text-align: center;
@@ -921,26 +917,26 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #00b4d9;
 }
 
-.services-item .services-content h3 {
+.Skill-item .Skill-content h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.services-item .services-content h3 a {
+.Skill-item .Skill-content h3 a {
   font-size: 18px;
   text-transform: uppercase;
   color: #666;
 }
 
-.services-item .services-content h3 a:hover {
+.Skill-item .Skill-content h3 a:hover {
   color: #00b4d9;
 }
 
-.services-item .services-content p {
+.Skill-item .Skill-content p {
   line-height: 30px;
 }
 
-.services-item:hover {
+.Skill-item:hover {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
